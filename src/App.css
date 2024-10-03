@@ -56,7 +56,7 @@ html, body {
 
 /* Настройка панели навигации */
 .navbar {
-  position:absolute;
+  position: absolute;
   top: 40px; /* Отступ от верхнего края окна */
   right: 50px; /* Расчетная позиция с учетом ширины контента */
   display: flex;
@@ -76,15 +76,19 @@ html, body {
   margin-right: 21.6px;
 }
 
-h2 {
+#title {
   margin: 0px;
   margin-top: 145px;
   margin-left: 180px;
+}
+
+h2 {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.25px;
-  color: #909090;
+  text-decoration: line-through;
 
+  color: #909090;
 }
 
 h1 {
@@ -94,4 +98,51 @@ h1 {
   font-weight: bold;
   text-decoration: line-through;
   letter-spacing: 0.5px;
+}
+
+img.logo  {
+  position: absolute ;
+  top: 190px;
+  left: 1035.7px;
+}
+
+div.logos {
+  margin-left: 545px;
+  margin-top: 170px;
+}
+
+#description1 {
+  font-weight: 600;
+  margin-top: 190px;
+  margin-left: 69px;
+}
+
+#description1__content {
+  margin-top: 35px;
+  margin-left: 69px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140.5%;
+  text-decoration: line-through;
+
+}
+
+#description1__content p {
+ margin-bottom: 50px;
+}
+
+#description1__content__entry-button {
+  margin-top: 4px;
+  margin-left: 2.5px;
+  border: 2px solid #9747FF ;
+  color: #9747FF;
+  border-radius: 35px;
+  padding: 18px 26px;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+
+#pink__square {
+  background-color: #FEDEFF;
 }
